@@ -9,6 +9,10 @@ export default function Router() {
       element: <Layout />,
       children: [
         {
+          path: "/",
+          element: <Factory />,
+        },
+        {
           path: "/factory",
           element: <Factory />,
         },
